@@ -1,0 +1,9 @@
+sqlalchemy>=2.0
+faker
+python-dotenv
+
+# Database drivers — install the one(s) you need:
+psycopg2-binary      # PostgreSQL
+PyMySQL              # MySQL / MariaDB (pure-Python, no system libs required)
+# mysqlclient        # MySQL / MariaDB alternative (faster, requires libmysqlclient)
+# sqlite3 is built into Python — no extra package needed
